@@ -37,7 +37,7 @@ public class HotelPage {
         }
 
         if (lowestRoom != null) {
-            lowestRoom.findElement(By.xpath(".//button[contains(text(),'Reserve') or contains(text(),"I'll reserve")]")).click();
+            lowestRoom.findElement(By.xpath(".//button[contains(text(),'Reserve') or contains(text(),I'll reserve)]")).click();
         }
     }
 }
